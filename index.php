@@ -7,15 +7,18 @@ if($_SESSION['ra'] == "200066195"){
 };
 ?>
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>eCursos - Console de Gerenciamento </title>
     </head>
     <body>
-        <form class="form-signin" style="width: 30%" action="./controllers/login.php" method="POST">
-            <h1>Login</h1>
+        <form class="form-signin" action="./controllers/login.php" method="POST">
+            <h1>eCursos - Console de Gerenciamento</h1>
+            <h3>Login:</h3>
             <label for="number-ra" class="sr-only">RA</label>
             <input type="text" name="number-ra" id="number-ra" class="form-control" placeholder="RA" required autofocus>
             <label for="password">Senha</label>
